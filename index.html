@@ -75,7 +75,7 @@
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         514 625 2007
       </a>
-      <a href="#contact" class="btn btn--primary" data-fr="Rendez-vous" data-en="Book now">Rendez-vous</a>
+      <a href="https://app.squareup.com/appointments/book/ltpmrv59mfvsd3/LVDNDRKBSJ22A/start" target="_blank" rel="noopener" class="btn btn--primary" data-fr="Réserver en ligne" data-en="Book online">Réserver en ligne</a>
     </div>
     <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -101,10 +101,10 @@
           Chez vous ou au bureau, notre atelier roulant s'installe dans votre entrée ou votre stationnement et change vos pneus en moins de 30 minutes. Aucune file d'attente, aucun rendez-vous manqué.
         </p>
         <div class="hero__ctas">
-          <a href="tel:+15146252007" class="btn btn--primary btn--lg">
+          <a href="https://app.squareup.com/appointments/book/ltpmrv59mfvsd3/LVDNDRKBSJ22A/start" target="_blank" rel="noopener" class="btn btn--primary btn--lg" data-fr="Réserver en ligne" data-en="Book online">Réserver en ligne</a>
+          <a href="tel:+15146252007" class="btn btn--ghost btn--lg">
             <span data-fr="Appeler maintenant" data-en="Call now">Appeler maintenant</span> — 514 625 2007
           </a>
-          <a href="#contact" class="btn btn--ghost btn--lg" data-fr="Remplir le formulaire" data-en="Fill out the form">Remplir le formulaire</a>
         </div>
         <ul class="hero__trust">
           <li><strong>30 min</strong><span data-fr="par véhicule, en moyenne" data-en="per vehicle, on average">par véhicule, en moyenne</span></li>
@@ -400,7 +400,7 @@
       <div class="contact__info">
         <p class="eyebrow" data-fr="Réservation" data-en="Booking">Réservation</p>
         <h2 data-fr="Demandez votre rendez-vous" data-en="Request your appointment">Demandez votre rendez-vous</h2>
-        <p data-fr="Remplissez le formulaire ou contactez-nous directement. On confirme votre plage horaire par téléphone ou courriel." data-en="Fill out the form or contact us directly. We'll confirm your time slot by phone or email.">Remplissez le formulaire ou contactez-nous directement. On confirme votre plage horaire par téléphone ou courriel.</p>
+        <p data-fr="Réservez directement un créneau dans notre calendrier en ligne, ou contactez-nous par téléphone ou courriel." data-en="Book a time slot directly in our online calendar, or contact us by phone or email.">Réservez directement un créneau dans notre calendrier en ligne, ou contactez-nous par téléphone ou courriel.</p>
 
         <div class="contact-methods">
           <a href="tel:+15146252007" class="contact-method">
@@ -418,66 +418,11 @@
         </div>
       </div>
 
-      <form class="booking-form" id="bookingForm" action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST">
-        <div class="form-row">
-          <div class="form-field">
-            <label for="clientType" data-fr="Je suis…" data-en="I am…">Je suis…</label>
-            <select id="clientType" name="Type de client">
-              <option data-fr="Un particulier" data-en="A resident" value="Particulier">Un particulier</option>
-              <option data-fr="Une entreprise" data-en="A business" value="Entreprise">Une entreprise</option>
-            </select>
-          </div>
-          <div class="form-field">
-            <label for="service" data-fr="Service souhaité" data-en="Service needed">Service souhaité</label>
-            <select id="service" name="Service">
-              <option data-fr="Changement de pneus" data-en="Tire change" value="Changement de pneus">Changement de pneus</option>
-              <option data-fr="Entreposage saisonnier" data-en="Seasonal storage" value="Entreposage saisonnier">Entreposage saisonnier</option>
-              <option data-fr="Flotte / entreprise" data-en="Fleet / business" value="Flotte / entreprise">Flotte / entreprise</option>
-              <option data-fr="Réparation / autre" data-en="Repair / other" value="Réparation / autre">Réparation / autre</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-field">
-            <label for="name" data-fr="Nom complet" data-en="Full name">Nom complet</label>
-            <input type="text" id="name" name="Nom" required>
-          </div>
-          <div class="form-field">
-            <label for="phone" data-fr="Téléphone" data-en="Phone">Téléphone</label>
-            <input type="tel" id="phone" name="Téléphone" required>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-field">
-            <label for="email" data-fr="Courriel" data-en="Email">Courriel</label>
-            <input type="email" id="email" name="Courriel" required>
-          </div>
-          <div class="form-field">
-            <label for="vehicles" data-fr="Nombre de véhicules" data-en="Number of vehicles">Nombre de véhicules</label>
-            <input type="number" id="vehicles" name="Nombre de véhicules" min="1" value="1">
-          </div>
-        </div>
-
-        <div class="form-field">
-          <label for="address" data-fr="Adresse d'intervention" data-en="Service address">Adresse d'intervention</label>
-          <input type="text" id="address" name="Adresse" placeholder="Rue, ville" required>
-        </div>
-
-        <div class="form-field">
-          <label for="message" data-fr="Détails (taille de pneus, date souhaitée, etc.)" data-en="Details (tire size, preferred date, etc.)">Détails (taille de pneus, date souhaitée, etc.)</label>
-          <textarea id="message" name="Message" rows="4"></textarea>
-        </div>
-
-        <label class="checkbox">
-          <input type="checkbox" id="discount" name="Rabais 4+" value="Oui">
-          <span data-fr="Je réserve 4 véhicules ou plus (rabais de 10%)" data-en="I'm booking 4+ vehicles (10% discount)">Je réserve 4 véhicules ou plus (rabais de 10%)</span>
-        </label>
-
-        <button type="submit" class="btn btn--primary btn--lg" data-fr="Envoyer la demande" data-en="Send request">Envoyer la demande</button>
-        <p class="form-note" data-fr="En envoyant ce formulaire, on vous contacte rapidement pour confirmer votre rendez-vous." data-en="By sending this form, we'll contact you shortly to confirm your appointment.">En envoyant ce formulaire, on vous contacte rapidement pour confirmer votre rendez-vous.</p>
-      </form>
+      <div class="square-appointments-embed">
+        <!-- Start Square Appointments Embed Code -->
+        <script src='https://square.site/appointments/buyer/widget/ltpmrv59mfvsd3/LVDNDRKBSJ22A.js'></script>
+        <!-- End Square Appointments Embed Code -->
+      </div>
     </div>
   </section>
 
