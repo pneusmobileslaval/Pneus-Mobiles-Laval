@@ -370,7 +370,7 @@ a.contact-method:hover span{color:var(--orange-dark);}
     transition:transform .25s ease; z-index:99;
   }
   .main-nav.is-open{transform:translateX(0);}
-  .main-nav a{font-size:1.1rem; padding:12px 0; width:100%; border-bottom:1px solid var(--line);}
+  .main-nav a{font-size:1.1rem; padding:12px 0; width:100%; border-bottom:1px solid var(--line); color:var(--orange);}
   .burger{display:flex;}
   .header-cta .btn--primary{display:none;}
   .header-cta{gap:8px;}
